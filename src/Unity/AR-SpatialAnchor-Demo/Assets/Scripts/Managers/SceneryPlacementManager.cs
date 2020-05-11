@@ -118,8 +118,6 @@ public class SceneryPlacementManager : MonoBehaviour
             if (tappedSceneryObject.GetInstanceID() == currentSceneryItemObject.GetInstanceID())
             {
                 currentSceneryItem.isSelected = true;
-                currentSceneryItem.isMoving = false;
-
                 appStateManager.currentUIState = UIStateEnum.SceneryButtonsOnly_ScenerySelected;
                 appStateManager.currentOutputMessage = $"Selected Scenery. Next, use 'Move Scenery' button, or, tap anywhere else in the view to deselect scenery.";
             }
