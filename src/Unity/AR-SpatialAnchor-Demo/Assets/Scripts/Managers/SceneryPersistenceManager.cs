@@ -67,15 +67,11 @@ public class SceneryPersistenceManager : MonoBehaviour
 
     IEnumerator PostSceneryDataJsonToApi(string jsonData)
     {
-        byte[] bytes = System.Text.Encoding.UTF8.GetBytes(jsonData);
 
-        using (UnityWebRequest unityWebRequest = UnityWebRequest.Put(generalConfiguration.apiUrl_SceneData, bytes))
+        using (UnityWebRequest unityWebRequest = UnityWebRequest.Post(generalConfiguration.apiUrl_SceneData, jsonData))
         {
             unityWebRequest.SetRequestHeader("Content-Type", "application/json");
-            unityWebRequest.method = "POST";
-
             yield return unityWebRequest.SendWebRequest();
-
         }
         appStateManager.currentOutputMessage = $"Saved Scenery data to cloud OK.";
     }
