@@ -1,11 +1,17 @@
-# Unity-AR-AzureSpatialAnchor-Demo
+# Unity, AR and Azure-Spatial-Anchors Demo
+
+## Where to start?
+
+* [Blogsite Introduction](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part1-introduction/)
+* [Project Quick Start Guide](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part2-quickstart/)
+* [YouTube video of the project in action](https://youtu.be/LVicdDqh-I0)
+
+<hr/>
 
 ## What are we doing?
-This repo accompanies a series of blog articles, were we’re going to work through a moderately complex - but thoroughly cool - project that demonstrates how to use Augmented Reality (AR) on a mobile device.
+This source code accompanies a series of blog articles, where we’re work through a  project that demonstrates how to use Augmented Reality (AR) on a mobile device.
 
-We’ll demonstrate how we can associate some 3D scenery with a real-world location and then share that experience across multiple devices.
-
-Over the course of this series, we're going to create an application that:
+Over the course of the series, we're going to review an application that:
 
 * Uses **AR technologies to locate and position** our mobile device within the real world.   
 * Gives us tools to **place and reposition 3D "scenery" objects** within the "virtual mirror" world.  
@@ -15,10 +21,4 @@ This will allow us to **return to the same physical location** and observe the v
 
 The demo application will be created using *Unity* with *ARFoundation*, backed by *Azure Functions* and *Azure Spatial Anchors* for cloud-based AR persistence.
 
-<hr/>
 
-## Where to start?
-
-* [Blogsite Introduction](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part1-introduction/)
-* [Project Quick Start Guide](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part2-quickstart/)
-* [YouTube of the project in action](https://youtu.be/LVicdDqh-I0)
