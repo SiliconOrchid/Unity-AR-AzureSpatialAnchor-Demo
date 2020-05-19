@@ -9,7 +9,7 @@
 <hr/>
 
 ## What are we doing?
-This source code accompanies a nime-part series of blog articles.
+This source code accompanies a nine-part series of blog articles.
 
 Over the course of the series, we're going to review an application that:
 
