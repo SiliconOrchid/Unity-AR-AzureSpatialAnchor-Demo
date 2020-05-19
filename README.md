@@ -2,14 +2,14 @@
 
 ## Where to start?
 
-* [Blogsite Introduction](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part1-introduction/)
-* [Project Quick Start Guide](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part2-quickstart/)
-* [YouTube video of the project in action](https://youtu.be/LVicdDqh-I0)
+* [Blogsite Introduction](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part1-introduction/) - includes REQUIREMENTS.
+* [Project Quick Start Guide](https://blogs.siliconorchid.com/post/coding-inspiration/unity-ar-spatialanchors/part2-quickstart/) - this project requires a small amount of setup and configuration to run.
+* [YouTube video of the project in action](https://youtu.be/LVicdDqh-I0) - fastest way to assses whether this project can be useuful to you.
 
 <hr/>
 
 ## What are we doing?
-This source code accompanies a series of blog articles, where we’re work through a  project that demonstrates how to use Augmented Reality (AR) on a mobile device.
+This source code accompanies a nime-part series of blog articles.
 
 Over the course of the series, we're going to review an application that:
 
