@@ -19,6 +19,14 @@ Over the course of the series, we're going to review an application that:
 
 This will allow us to **return to the same physical location** and observe the virtual scenery - either at a later date or using a completely different device.
 
-The demo application will be created using *Unity* with *ARFoundation*, backed by *Azure Functions* and *Azure Spatial Anchors* for cloud-based AR persistence.
+<hr/>
+
+The demo application has been created using:
+
+* ***Unity*** 
+    * with ***ARFoundation***
+* ***Azure Functions***
+    * with ***Azure Storage*** 
+*  ***Azure Spatial Anchors*** 
 
 
